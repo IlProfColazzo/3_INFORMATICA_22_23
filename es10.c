@@ -10,7 +10,7 @@ Date il numero delle ore lavorative svolte, calcolare la paga netta.*/
 int main()
 {
     float pagaOraria, trattenutaPercentuale, pagaLorda, trattenute, pagaNetta;
-    int nOre = 30;
+    int nOre;
 
 	printf("Inserisci la paga oraria: ");
 	scanf("%f",&pagaOraria);
